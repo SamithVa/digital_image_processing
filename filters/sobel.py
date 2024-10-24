@@ -23,4 +23,5 @@ titles = ["original", "horizontal", "vertical", "magnitude"]
 for i, ax in enumerate(axs.ravel()):
     ax.set_title(titles[i])
     ax.axis("off")
+plt.savefig('sobel.png')
 plt.show()
